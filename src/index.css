@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #6b838380;
+}
+html{
+    scroll-behavior: smooth;
+}
+.padding{
+    @apply px-3 sm:px-5 md:px-16 lg:px-30 xl:px-40
+}
+.navButton{
+    @apply px-4 py-2 rounded bg-[#6b8383] hover:bg-[#6b838390] transition-all duration-200 cursor-pointer font-bold text-white
+}
