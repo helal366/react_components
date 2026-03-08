@@ -17,3 +17,9 @@ html{
 .navButton{
     @apply px-4 py-2 rounded bg-[#6b8383] hover:bg-[#6b838390] transition-all duration-200 cursor-pointer font-bold text-white
 }
+.navLinks{
+    @apply w-40 rounded absolute duration-500 bg-[#6b8383] lg:hidden text-white p-3
+}
+.singleNavLink{
+    @apply bg-[#b2e32a20] rounded cursor-pointer p-2
+}
